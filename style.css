@@ -1,0 +1,57 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+.content{
+    width: 500px;
+    height: 500px;
+    background-image: url(./images/jai\ shree\ ram.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border: 10px solid white;
+    box-shadow: 0px 0px 30px white;
+    border-radius: 10px;
+}
+img{
+    height: 300px;
+}
+span{
+    float: right;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+span:active{
+    transform: scale(0.9);
+}
+
+p{
+    color: white;
+    border: 5px solid white;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px white;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+p:hover{
+    box-shadow: none;
+    background-color: white;
+    color: black;
+    
+}
